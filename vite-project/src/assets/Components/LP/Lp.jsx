@@ -1,5 +1,6 @@
 import Card from "../Card/card.jsx";
 import Simulador from "../Simulador.jsx";
+import Carrossel from "../LP/Carrossel/Carrossell.jsx";
 
 export default function LP(){
     const cardsData = [
@@ -22,6 +23,7 @@ export default function LP(){
          
         },
       ];
+    
     return(
         <>
         <div className="bg-[linear-gradient(to_top,#143896,#000000_100%)]">
@@ -44,9 +46,17 @@ export default function LP(){
             />
             )}
           </div>
+          <h2 className="text-white text-3xl flex justify-center items-center pt-5">Impactos Negativos x Impactos Positivos</h2>
+          <div className="text-white flex justify-center items-center py-10">
+            <button className="m-2 p-2.5 px-5 bg-blue-800 text-white rounded-md cursor-pointer">Frustração e Desconfiança</button>
+            <button className="m-2 p-2.5 px-5 bg-blue-800 text-white rounded-md cursor-pointer">Decisões Mal Informadas</button>
+            <button className="m-2 p-2.5 px-5 bg-blue-800 text-white rounded-md cursor-pointer">Tempo Desperdiçado</button>
+            <button className="m-2 p-2.5 px-5 bg-blue-800 text-white rounded-md cursor-pointer">Soluções</button>
+            <button className="m-2 p-2.5 px-5 bg-blue-800 text-white rounded-md cursor-pointer">Apostas informadas</button>
+            <button className="m-2 p-2.5 px-5 bg-blue-800 text-white rounded-md cursor-pointer">Transações eficientes</button>
+          </div>
+          <Carrossel />
         </div>
-        
-        </>
-        
+        </> 
     )
 }
