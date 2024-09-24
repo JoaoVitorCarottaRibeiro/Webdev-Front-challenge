@@ -1,3 +1,4 @@
+import BetList from "../../Container Apostas/ContainerApostas";
 import Footer from "../../Footer/Footer";
 import Header from "../../Header/Header";
 
@@ -11,10 +12,10 @@ export default function AoVivo(){
                 <img className="w-[35px] h-[35px]" src="../../../../../public/Imagens/brasil.png" alt="Brasil-img" />
                 <h4 className="text-2xl">Corrida 4 - 2024 São Paulo E-PRIX</h4>
             </div>
-            <h4 className="flex items-center justify-center text-2xl">Vencedor</h4>
-            <div className="">
-                
-            </div>
+            <h4 className="flex items-center justify-center text-2xl mt-5">Vencedor</h4>
+            <BetList />
+            <h4 className="flex items-center justify-center text-2xl">Pódio</h4>
+            <BetList />
         </div>
         <Footer />
         </>
