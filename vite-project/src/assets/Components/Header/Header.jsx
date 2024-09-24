@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import '../Header/header.css'
 
 export default function Header(){
@@ -5,13 +6,13 @@ export default function Header(){
         <>
         <div className="header">
         <nav className='navegacao'>
-            <a href="#">
+            <Link to="/">
                 <img className='logo' src="../../../../public/Imagens/Logo_Sprint1_sem_fundo.png" alt="logo" />
-            </a>
-            <a href="#">Ao vivo</a>  
-            <a href="#">Apostas</a>
-            <a href="#">Impactos</a>
-            <a href="#">Formula-E</a>
+            </Link>
+            <Link to="/aovivo">Ao vivo</Link>  
+            <Link to="/apostas">Apostas</Link>
+            <Link to="/impactos">Impactos</Link>
+            <Link to="/formulae">Formula-E</Link>
             <button className='btnUser' id='BtnUser'>
                 <img className='UserIMG' src="../../../../public/Imagens/UserIMG2.png" alt="login img"/>
             </button>
