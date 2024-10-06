@@ -1,3 +1,7 @@
+Criação do site Bettery para o Challenge
+
+---------------------------------------------
+
 Arthur Bueno de Oliveira - RM558396
 --------------------------------------
 Diego Eleuterio Fadul da Costa - RM557218
